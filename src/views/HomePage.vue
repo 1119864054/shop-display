@@ -1,10 +1,15 @@
 <template>
-  <h1>HomePage</h1>
+  <area-info />
 </template>
 
 <script>
+import AreaInfo from "../components/homeComps/AreaInfo";
+
 export default {
-  name: "Home"
+  name: "Home",
+  components: {
+    AreaInfo
+  }
 };
 </script>
 
