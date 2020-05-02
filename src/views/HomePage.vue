@@ -1,26 +1,10 @@
 <template>
-  <el-container>
-    <el-header>
-      <page-head></page-head>
-    </el-header>
-    <el-header>
-      <nav-bar></nav-bar>
-    </el-header>
-    <el-main><router-view /></el-main>
-    <el-footer>Footer</el-footer>
-  </el-container>
+  <h1>HomePage</h1>
 </template>
 
 <script>
-import NavBar from "./components/common/NavBar";
-import PageHead from "./components/common/PageHead";
-
 export default {
-  name: "Home",
-  components: {
-    NavBar,
-    PageHead
-  }
+  name: "Home"
 };
 </script>
 
